@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8HZHaqnHKDAp8/R12KLkqTu4RKZaPh7XINVmbcp2vQ4tcqkpvFvma/IZPHiXNSBiWGxY0l3AV28nke42CE7KCQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.ModelView\\Finances.ModelView.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Luan\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Luan\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

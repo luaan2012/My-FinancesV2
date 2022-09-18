@@ -1,0 +1,12 @@
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\bin\Debug\net6.0\Finances.Enums.deps.json
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\bin\Debug\net6.0\Finances.Enums.dll
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\bin\Debug\net6.0\Finances.Enums.pdb
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\obj\Debug\net6.0\Finances.Enums.csproj.AssemblyReference.cache
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\obj\Debug\net6.0\Finances.Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\obj\Debug\net6.0\Finances.Enums.AssemblyInfoInputs.cache
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\obj\Debug\net6.0\Finances.Enums.AssemblyInfo.cs
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\obj\Debug\net6.0\Finances.Enums.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\obj\Debug\net6.0\Finances.Enums.dll
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\obj\Debug\net6.0\refint\Finances.Enums.dll
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\obj\Debug\net6.0\Finances.Enums.pdb
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Enums\obj\Debug\net6.0\ref\Finances.Enums.dll

@@ -1,0 +1,62 @@
+﻿@{
+    var user = await services.GetAllInf((Context.Session.GetUsuario()?.Id ?? new Guid()));
+}
+
+<link rel="stylesheet" href="~/css/modais.css">
+
+<div id="modalGeral" class="modal">
+    <form id="formGeral" action="">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="content"></div>
+            <div class="foot">
+                <input type="submit" class="btn btn-success save">
+                <a class="btn btn-danger modal-cancel">Cancelar</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div id="modalGoal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="content">
+            <select id="valueGoal">
+                <option value="">Selecione...</option>
+                @if((user?.Projects?.Count() ?? 0) > 0)
+                {
+                    foreach (var item in user.Projects)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="foot">
+            <input type="submit" class="btn btn-success save">
+            <a class="btn btn-danger modal-cancel">Cancelar</a>
+        </div>
+    </div>
+</div>
+
+<div id="modalVisitor" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="content">
+            <select id="valueVisitor">
+                <option value="">Selecione...</option>
+                @if((user?.VisitorsCountries?.Count() ?? 0) > 0)
+                {
+                    foreach (var item in user.VisitorsCountries)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="foot">
+            <input type="submit" class="btn btn-success save">
+            <a class="btn btn-danger modal-cancel">Cancelar</a>
+        </div>
+    </div>
+</div>

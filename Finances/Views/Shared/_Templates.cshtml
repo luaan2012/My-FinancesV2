@@ -1,0 +1,150 @@
+﻿@{
+    var id = Context.Session.isLogado() ? Context.Session.GetUsuario().Id.ToString() : "";
+}
+
+<template id="salario">
+    <input type="hidden" name="Id" value="@id" />
+    <div class="form-group row mt-3">
+        <label for="nome" class="col-sm-2 col-form-label">Sálario</label>
+        <div class="col-sm-6">
+            <input type="text" minlength="1" class="form-control money" name="Salary" placeholder="Quanto você recebe?">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Dia de pagamento</label>
+        <select name="DateReceive">
+            <option value="">Selecione o dia</option>
+            <option value="05">05</option>
+            <option value="20">20</option>
+            <option value="05,20">05 e 20</option>
+        </select>
+    </div>
+</template>
+
+<template id="lembretes">
+    <input type="hidden" name="UsersId" value="@id" />
+    <div class="form-group row mt-3">
+        <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+        <div class="col-sm-6">
+            <input type="text" minlength="1" class="form-control" name="Name" placeholder="Escreva o nome do lembrete">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Data</label>
+        <div class="col-sm-6">
+            <input type="date" minlength="1" name="DateRemember" class="form-control" id="DateRemember" placeholder="Data para lembrar">
+        </div>
+    </div>
+</template>
+
+<template id="projetos">
+    <input type="hidden" name="UsersId" value="@id" />
+    <div class="form-group row mt-3">
+        <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+        <div class="col-sm-6">
+            <input type="text" minlength="1" class="form-control" name="Name" id="LastEarns" placeholder="Digite o nome do projeto">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Descrição</label>
+        <div class="col-sm-6">
+            <input type="text" minlength="1" name="Description" class="form-control" placeholder="Escreva mais sobre o projeto">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Data inicio</label>
+        <div class="col-sm-6">
+            <input type="date" minlength="1" name="DateBegin" class="form-control" placeholder="Data de inicio">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Data final</label>
+        <div class="col-sm-6">
+            <input type="date" minlength="1" name="DateFinal" class="form-control" id="ReceiveSalary" placeholder="Digite final">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Meta</label>
+        <div class="col-sm-6">
+            <input type="text" minlength="1" name="Goal" class="form-control money" placeholder="Qual valor para meta?">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Obtido</label>
+        <div class="col-sm-6">
+            <input type="text" minlength="1" name="Value" class="form-control money" placeholder="Caso tenha algum valor, acrescente">
+        </div>
+    </div>
+</template>
+
+<template id="viagens">
+    <input type="hidden" name="UsersId" value="@id" />
+    <div class="form-group row mt-3">
+        <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Name" placeholder="Digite o nome do pais">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Valor</label>
+        <div class="col-sm-6">
+            <input type="text" minlength="1" name="Value" class="form-control money" placeholder="Digite o valor">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Valor obtido</label>
+        <div class="col-sm-6">
+            <input type="text" minlength="1" name="ValueGoal" class="form-control money" placeholder="Digite o valor que possui">
+        </div>
+    </div>
+</template>
+
+<template id="dividas">
+    <input type="hidden" name="UsersId" value="@id" />
+    <div class="form-group row mt-3">
+        <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Name" placeholder="Digite o nome da divida">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Descrição</label>
+        <div class="col-sm-6">
+            <input type="text" minlength="1" name="NameDebts" class="form-control" placeholder="Escreva um pouco mais sobre a divida">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Valor</label>
+        <div class="col-sm-6">
+            <input type="text" minlength="1" name="Value" class="form-control money" placeholder="Digite o valor">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Data inicio</label>
+        <div class="col-sm-6">
+            <input type="date" minlength="1" name="DateDebts" class="form-control" placeholder="Digite a data de emprestimo">
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="valor" class="col-sm-4 col-form-label">Data final</label>
+        <div class="col-sm-6">
+            <input type="date" minlength="1" name="DatePayment" class="form-control" placeholder="Digite a data de pagamento">
+        </div>
+    </div>
+
+</template>
+
+

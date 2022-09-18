@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-Finances-9E3DB9D8-B06A-4F38-98ED-DF163759B9F2</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="automapper.extensions.microsoft.dependencyinjection" Version="11.0.0" />
+	<PackageReference Include="KissLog.AspNetCore" Version="5.1.2" />
+	<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.4" />
+	<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+	<PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Finances.CrossCutting.Helper\Finances.CrossCutting.Helper.csproj" />
+    <ProjectReference Include="..\Finances.Identity\Finances.Identity.csproj" />
+	<ProjectReference Include="..\Finances.CrossCutting.DependencyInjection\Finances.CrossCutting.DependencyInjection.csproj" />
+	<ProjectReference Include="..\Finances.ModelView\Finances.ModelView.csproj" />
+	<ProjectReference Include="..\Finances.Services\Finances.Services.csproj" />
+	  <ProjectReference Include="..\Finances.Models\Finances.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\login\" />
+  </ItemGroup>
+
+</Project>

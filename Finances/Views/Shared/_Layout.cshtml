@@ -1,0 +1,76 @@
+﻿@{
+    var user = Context.Session.GetUsuario();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Finances</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    @if (Context.Session.isLogado() && Context.Request.Path.Value == "/Index")
+    {
+        <div class="container-scroller">
+            <partial name="_SideBar" />
+            <div class="container-fluid page-body-wrapper">
+                <partial name="_Nav" />
+                @RenderBody()
+                <partial name="_Footer" />
+            </div>
+        </div>
+    }
+    else
+    {
+        @RenderBody()
+    }
+
+    <partial name="_Templates" />
+    <partial name="_Modals" />
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="~/vendors/chart.js/Chart.min.js"></script>
+    <script src="~/vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="~/vendors/jvectormap/jquery-jvectormap.min.js"></script>
+    <script src="~/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="~/vendors/owl-carousel-2/owl.carousel.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="~/js/off-canvas.js"></script>
+    <script src="~/js/hoverable-collapse.js"></script>
+    <script src="~/js/misc.js"></script>
+    <script src="~/js/settings.js"></script>
+    <script src="~/js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="~/js/dashboard.js"></script>
+    <script src="~/js/modais.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/js/jquery.maskMoney.js"></script>
+    <script src="https://kit.fontawesome.com/add38bb646.js" crossorigin="anonymous"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+@if ((user?.FirtsLogin ?? false) && Context.Session.isLogado())
+{
+    <script>
+        $('#modalGeral').css('display', 'block');
+        $('#modalGeral').find('.save').addClass('salvarSalario');
+        $('#modalGeral .content').html($('#salario').html())
+        $("#modalGeral .money").maskMoney({ prefix: 'R$ ', allowNegative: true, thousands: '.', decimal: ',', affixesStay: true });
+    </script>
+}
+
+<script>
+    $(document).ready(function () {
+        $('body').addClass('sidebar-icon-only')
+    })
+</script>

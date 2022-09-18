@@ -1,0 +1,187 @@
+﻿@model Finances.ModelView.UserView
+
+@{
+    var success = ((bool)(ViewBag.Success ?? false));
+}
+
+<link rel="stylesheet" href="~/css/register.css">
+<link href="~/vendors/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+<link href="~/vendors/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+<link href="~/vendors/select2/select2.min.css" rel="stylesheet" media="all">
+<link href="~/vendors/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+<div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+    <div class="wrapper wrapper--w680">
+        <div class="card card-4">
+            <div class="card-body">
+                <h2 class="title">Formulario de Registo</h2>
+                <form id="myForm" enctype="multipart/form-data" method="Post">
+                    <div class="col-12">
+                        <div class="input-group">
+                            <label asp-for="UserName" class="label">Nome de usuario</label>
+                            <input asp-for="UserName" class="input--style-4" type="text" name="UserName" onkeypress='return (event.charCode >= 48 && event.charCode <= 57) || (event.charCode >= 65 && event.charCode <= 122)'>
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row row-space">
+                        <div class="col-2">
+                            <div class="input-group">
+                                <label asp-for="Name" class="label">Primeiro Nome</label>
+                                <input asp-for="Name" class="input--style-4" type="text" name="Name">
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="input-group">
+                                <label asp-for="LastName" class="label">Segundo Nome</label>
+                                <input asp-for="LastName" class="input--style-4" type="text" name="LastName">
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-space">
+                        <div class="col-2">
+                            <div class="input-group">
+                                <label asp-for="Birthday" class="label">Data Aniversário</label>
+                                <div class="input-group-icon">
+                                    <input asp-for="Birthday" class="input--style-4 js-datepicker" type="text" name="Birthday">
+                                    <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="input-group">
+                                <label class="label">Sexo</label>
+                                <div class="p-t-10">
+                                    <label class="radio-container m-r-45">
+                                        Masculino
+                                        <input type="radio" checked="checked" value="Masculino" name="Gender">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="radio-container">
+                                        Feminino
+                                        <input type="radio" value="Feminino" name="Gender">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-space">
+                        <div class="col-2">
+                            <div class="input-group">
+                                <label asp-for="Email" class="label">Email</label>
+                                <input asp-for="Email" class="input--style-4" type="email" name="Email">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="input-group">
+                                <label asp-for="Phone" class="label">Numero Telefone</label>
+                                <input asp-for="Phone" class="input--style-4 phone" type="text" name="Phone">
+                                <span asp-validation-for="Phone" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-space">
+                        <div class="col-2">
+                            <div class="input-group">
+                                <label asp-for="Password" class="label">Senha</label>
+                                <input asp-for="Password" class="input--style-4" type="password" name="Password">
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="input-group">
+                                <label asp-for="ConfirmPassword" class="label">Confirmar Senha</label>
+                                <input asp-for="ConfirmPassword" class="input--style-4" type="password" name="ConfirmPassword">
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-space">
+                        <div class="col-3">
+                            <div class="input-group">
+                                <label asp-for="TypeUser" class="label">Profissão</label>
+                                <div class="rs-select2 js-select-simple select--no-search">
+                                    <select asp-for="TypeUser" name="TypeUser">
+                                        <option disabled="disabled" selected="selected">Escolha uma opcão</option>
+                                        <option value="1">PJ</option>
+                                        <option value="2">Fisico</option>
+                                        <option value="3">Juridico</option>
+                                    </select>
+                                    <div class="select-dropdown"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <label for="formFileSm" asp-for="ImageUpload" class="form-label">Foto de perfil</label>
+                            <input asp-for="ImageUpload" class="form-control form-control-sm" name="ImageUpload" type="file" accept="image/png, image/gif, image/jpeg" />
+                        </div>
+                    </div>
+                    <div class="p-t-15">
+                        <button class="btn btn--radius-2 btn--blue" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-sucesso" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Cadastro realizado com sucesso</h5>
+            </div>
+            <div class="modal-body">
+
+                <div class="modal-body modal-content">
+                    <p>Bem vindo @(Model?.Name ?? "") @(Model?.LastName ?? "")! Você sera direcionado em <small class="count"></small></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="~/vendors/jquery/jquery.min.js"></script>
+<script src="~/vendors/select2/select2.min.js"></script>
+<script src="~/vendors/datepicker/moment.min.js"></script>
+<script src="~/vendors/datepicker/daterangepicker.js"></script>
+<script src="~/js/global.js"></script>
+
+@if (success)
+{
+    <script>
+        $('.modal-sucesso').show()
+
+        var count = 5;
+
+        time();
+
+        function time() {
+            if(count <= 0)
+                window.location = '/';
+            else{
+                $('.count').text(count);
+                count--;
+                setTimeout(() => {
+                    time();
+                }, 1000)
+            }
+        }
+
+    </script>
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $('.phone').mask('(00) 0000-0000');
+</script>
+
+
+

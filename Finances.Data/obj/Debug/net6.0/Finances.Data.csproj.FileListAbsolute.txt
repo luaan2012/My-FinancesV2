@@ -1,0 +1,17 @@
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\bin\Debug\net6.0\Finances.Data.deps.json
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\bin\Debug\net6.0\Finances.Data.dll
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\bin\Debug\net6.0\Finances.Data.pdb
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\bin\Debug\net6.0\Finances.Models.dll
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\bin\Debug\net6.0\Finances.Models.pdb
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\obj\Debug\net6.0\Finances.Data.csproj.AssemblyReference.cache
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\obj\Debug\net6.0\Finances.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\obj\Debug\net6.0\Finances.Data.AssemblyInfoInputs.cache
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\obj\Debug\net6.0\Finances.Data.AssemblyInfo.cs
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\obj\Debug\net6.0\Finances.Data.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\obj\Debug\net6.0\Finances.Data.csproj.CopyComplete
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\obj\Debug\net6.0\Finances.Data.dll
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\obj\Debug\net6.0\refint\Finances.Data.dll
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\obj\Debug\net6.0\Finances.Data.pdb
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\obj\Debug\net6.0\ref\Finances.Data.dll
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\bin\Debug\net6.0\Finances.Enums.dll
+C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Data\bin\Debug\net6.0\Finances.Enums.pdb
