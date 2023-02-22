@@ -3,6 +3,7 @@ using Finances.Enums;
 using Finances.Identity;
 using Finances.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -146,7 +147,9 @@ namespace Finances.Domain.Repository
 
             if (result is null) return 0;
 
-            result.FirtsLogin = true;
+            result.FirtsLogin = false;
+            result.ReceiveSalary = users.ReceiveSalary;
+            result.Salary = users.Salary;
 
             _db.MyUser.Update(result);
 
@@ -195,6 +198,15 @@ namespace Finances.Domain.Repository
             _db.Projects.Update(result);
 
             return await SaveChanges();
+        }
+
+        public async Task<IEnumerable<Debts>> GetDebts(Guid id)
+        {
+            var result = await _db.Debts.Where(x => x.UsersId == id).ToListAsync();
+
+            if (result is null) return null;
+
+            return result;
         }
     }
 }

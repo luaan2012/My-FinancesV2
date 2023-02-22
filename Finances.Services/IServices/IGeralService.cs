@@ -25,6 +25,6 @@ namespace Finances.Services.IServices
         Task<int> RemoveVisitor(Guid id);
         Task<int> ChangeGoalTravel(VisitorsCountries visitor);
         Task<int> ChangeGoalProject(Projects projects);
-
+        Task<IEnumerable<Debts>> GetDebts(Guid id);
     }
 }

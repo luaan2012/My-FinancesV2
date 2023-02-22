@@ -4,6 +4,8 @@
 
 <template id="salario">
     <input type="hidden" name="Id" value="@id" />
+    <input type="hidden" class="receiveSalarydata" name="ReceiveSalary" value="" />
+
     <div class="form-group row mt-3">
         <label for="nome" class="col-sm-2 col-form-label">Sálario</label>
         <div class="col-sm-6">
@@ -13,11 +15,10 @@
 
     <div class="form-group row mt-3">
         <label for="valor" class="col-sm-4 col-form-label">Dia de pagamento</label>
-        <select name="DateReceive">
+        <select name="valor" class="col-sm-6 bg-black" onchange="val(this)">
             <option value="">Selecione o dia</option>
             <option value="05">05</option>
             <option value="20">20</option>
-            <option value="05,20">05 e 20</option>
         </select>
     </div>
 </template>
@@ -148,3 +149,8 @@
 </template>
 
 
+<script>
+    function val(el) {        
+        $('.receiveSalarydata').val(el.value + '/01/2023')
+    }
+</script>

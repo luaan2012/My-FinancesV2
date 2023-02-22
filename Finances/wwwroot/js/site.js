@@ -62,6 +62,18 @@ function deleteProject(id) {
     $.post('/Geral/RemoveProject', { id })
         .done(function (data) {
             alert(data.message);
+            window.location.reload()
+        })
+        .fail(function (data) {
+            alert(data.message);
+        })
+}
+
+function deleteTravel(id) {
+    $.post('/Geral/RemoveVisitor', { id })
+        .done(function (data) {
+            alert(data.message);
+            window.location.reload()
         })
         .fail(function (data) {
             alert(data.message);
@@ -72,7 +84,7 @@ function removeRemember(id) {
     $.post('/Geral/RemoveRemember', { id })
         .done(function (data) {
             alert(data.message);
-            window.location.reload
+            window.location.reload()
         })
         .fail(function (data) {
             alert(data.message);
@@ -83,7 +95,7 @@ function removeDebts(id) {
     $.post('/Geral/RemoveDebts', { id })
         .done(function (data) {
             alert(data.message);
-            window.location.reload
+            window.location.reload()
         })
         .fail(function (data) {
             alert(data.message);
@@ -102,7 +114,6 @@ function AjaxModal(elemento, url, metodo) {
         type: metodo,
         data: formData,
         success: function (data) {
-            console.log(data)
             if (data) {
                 alert(data.message)
                 window.location.reload();
@@ -124,25 +135,12 @@ function changePay(id, pay) {
     $.post('/Geral/ChangePay', { id, pay })
         .done(function (data) {
             alert(data.message);
-            window.location.reload
+            window.location.reload()
         })
         .fail(function (data) {
             alert(data.message);
         })
 }
-
-
-//var modal = document.getElementById("modalGeral")
-
-//var span = document.getElementsByClassName("close")[0];
-
-//var cancel = document.getElementsByClassName("modal-cancel")[0];
-
-
-//$(window).click(function (event) {
-//    if (event.target == modal)
-//        modal.style.display = "none";
-//})
 
 $(".modal-cancel").click(function () {
     $(".modal").css("display", "none")

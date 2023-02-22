@@ -50,6 +50,7 @@ namespace Finances.Controllers
             };
 
             user.FirstLogin = true;
+            user.RegisterHour = DateTime.Now;
 
             var result = await _userManager.CreateAsync(identity, user.Password);
 

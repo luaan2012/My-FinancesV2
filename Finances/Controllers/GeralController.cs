@@ -195,13 +195,13 @@ namespace Finances.Controllers
 
             if (result != 1) return BadRequest(new ReturnMessage
             {
-                Message = "Erro ao remover o primeiro!",
+                Message = "Erro ao adicionar o sálario!",
                 Success = false
             });
 
             return Json(new ReturnMessage
             {
-                Message = "Primeiro removido com sucesso!",
+                Message = "Salario adicionado com sucesso",
                 Success = true
             });
         }
@@ -258,6 +258,28 @@ namespace Finances.Controllers
                 Message = "Divida paga com sucesso!",
                 Success = true
             });
+        }
+
+        [HttpPost, Route("GetDebts")]
+        public async Task<IActionResult> GetDebts()
+        {
+            var user = HttpContext.Session.GetUsuario();
+
+            if(user is null) return BadRequest(new ReturnMessage
+            {
+                Message = "Erro ao consultar historico!",
+                Success = false
+            });
+
+            var result = (await _geralService.GetDebts(user.Id)).ToArray();
+
+            if (result is null) return BadRequest(new ReturnMessage
+            {
+                Message = "Erro ao consultar historico!",
+                Success = false
+            });
+
+            return Json(result);
         }
     }
 }

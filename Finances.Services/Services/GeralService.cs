@@ -92,5 +92,10 @@ namespace Finances.Services.Services
         {
             return _geralRepository.ChangeGoalProject(projects);
         }
+
+        public async Task<IEnumerable<Debts>> GetDebts(Guid id)
+        {
+            return await _geralRepository.GetDebts(id);
+        }
     }
 }
