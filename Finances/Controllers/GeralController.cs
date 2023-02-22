@@ -273,7 +273,7 @@ namespace Finances.Controllers
 
             var result = (await _geralService.GetDebts(user.Id)).ToArray();
 
-            if (result is null) return BadRequest(new ReturnMessage
+            if (result.Count() <= 0) return BadRequest(new ReturnMessage
             {
                 Message = "Erro ao consultar historico!",
                 Success = false
