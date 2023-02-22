@@ -10,6 +10,7 @@ using System.Globalization;
 using KissLog;
 using KissLog.AspNetCore;
 using KissLog.Formatters;
+using Finances.CrossCutting.Helper;
 
 namespace Finances.CrossCutting.DependencyInjection
 {
@@ -17,19 +18,22 @@ namespace Finances.CrossCutting.DependencyInjection
     {
         public static void AddServiceDbInjection(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlite("DataSource=teste.db"));
+
+            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddErrorDescriber<IdentityMessagePortuguese>();
+
+            services.AddPasswordConfiguration();
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-
             //builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
         }
 
         public static void AddSecurityCustom(this IServiceCollection services)

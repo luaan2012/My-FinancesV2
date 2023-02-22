@@ -123,13 +123,13 @@ namespace Finances.Controllers
 
             if (result != 1) return BadRequest(new ReturnMessage
             {
-                Message = "Erro ao adicionar um projeto!",
+                Message = "Erro ao adicionar lembrete!",
                 Success = false
             });
 
             return Json(new ReturnMessage
             {
-                Message = "Projeto adicionado com sucesso!",
+                Message = "Lembrete adicionar com sucesso!",
                 Success = true
             });
         }
@@ -141,13 +141,13 @@ namespace Finances.Controllers
 
             if (result != 1) return BadRequest(new ReturnMessage
             {
-                Message = "Erro ao remover o projeto!",
+                Message = "Erro ao remover o lembrete!",
                 Success = false
             });
 
             return Json(new ReturnMessage
             {
-                Message = "Projeto removido com sucesso!",
+                Message = "Lembrete removido com sucesso!",
                 Success = true
             });
         }
@@ -159,13 +159,13 @@ namespace Finances.Controllers
 
             if (result != 1) return BadRequest(new ReturnMessage
             {
-                Message = "Erro ao adicionar um projeto!",
+                Message = "Erro ao adicionar um divida!",
                 Success = false
             });
 
             return Json(new ReturnMessage
             {
-                Message = "Projeto adicionado com sucesso!",
+                Message = "Divida adicionado com sucesso!",
                 Success = true
             });
         }
@@ -177,13 +177,13 @@ namespace Finances.Controllers
 
             if (result != 1) return BadRequest(new ReturnMessage
             {
-                Message = "Erro ao remover o projeto!",
+                Message = "Erro ao remover a divida!",
                 Success = false
             });
 
             return Json(new ReturnMessage
             {
-                Message = "Projeto removido com sucesso!",
+                Message = "Divida removido com sucesso!",
                 Success = true
             });
         }
@@ -195,13 +195,13 @@ namespace Finances.Controllers
 
             if (result != 1) return BadRequest(new ReturnMessage
             {
-                Message = "Erro ao remover o projeto!",
+                Message = "Erro ao remover o primeiro!",
                 Success = false
             });
 
             return Json(new ReturnMessage
             {
-                Message = "Projeto removido com sucesso!",
+                Message = "Primeiro removido com sucesso!",
                 Success = true
             });
         }
@@ -213,13 +213,13 @@ namespace Finances.Controllers
 
             if (result != 1) return BadRequest(new ReturnMessage
             {
-                Message = "Erro ao remover o projeto!",
+                Message = "Erro ao adicionar a viagem!",
                 Success = false
             });
 
             return Json(new ReturnMessage
             {
-                Message = "Projeto removido com sucesso!",
+                Message = "Viagem adicionada com sucesso!",
                 Success = true
             });
         }
@@ -231,13 +231,13 @@ namespace Finances.Controllers
 
             if (result != 1) return BadRequest(new ReturnMessage
             {
-                Message = "Erro ao remover o projeto!",
+                Message = "Erro ao remover a viagem!",
                 Success = false
             });
 
             return Json(new ReturnMessage
             {
-                Message = "Projeto removido com sucesso!",
+                Message = "Viagem removido com sucesso!",
                 Success = true
             });
         }
@@ -249,13 +249,13 @@ namespace Finances.Controllers
 
             if (result != 1) return BadRequest(new ReturnMessage
             {
-                Message = "Erro ao remover o projeto!",
+                Message = "Erro ao pagar essa divida!",
                 Success = false
             });
 
             return Json(new ReturnMessage
             {
-                Message = "Projeto removido com sucesso!",
+                Message = "Divida paga com sucesso!",
                 Success = true
             });
         }

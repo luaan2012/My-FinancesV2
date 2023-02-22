@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xmOdXQQmvfSLMsQkHAm4aDTGeWyv10mZ1xVVw+MbS0smAbH1C6BD9d1eQZiPxpTYQxOeJtJ1OPm0h5kh/rQBwQ==",
+  "dgSpecHash": "3qvk+vsHabDFTMsX0OZUm6mRcTUB38gKQD2ISpKLKaGqvHQ+Zd+JhiEwGGarjajZ4sIM4rS3to87K9m8VerwlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Services\\Finances.Services.csproj",
+  "projectFilePath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Services\\Finances.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.4\\microsoft.aspnetcore.cryptography.internal.6.0.4.nupkg.sha512",
     "C:\\Users\\Luan\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.4\\microsoft.aspnetcore.cryptography.keyderivation.6.0.4.nupkg.sha512",

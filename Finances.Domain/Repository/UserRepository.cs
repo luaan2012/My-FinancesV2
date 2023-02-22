@@ -42,9 +42,9 @@ namespace Finances.Domain.Repository
 
         public async Task<Users> GetAllInf(Guid id)
         {
-            var user = await _db.MyUser.Where(x => x.Id == id).Include(x => x.Projects).Include(x => x.Remembers)
-                                                          .Include(x => x.HistoryEvenues).Include(x => x.ToDos).Include(x => x.Revenues)
-                                                          .Include(x => x.VisitorsCountries).Include(x => x.Debts).FirstOrDefaultAsync();
+            var user = await _db.MyUser.AsNoTracking().Where(x => x.Id == id).Include(x => x.Projects).Include(x => x.Remembers)
+                            .Include(x => x.HistoryEvenues).Include(x => x.ToDos).Include(x => x.Revenues)
+                            .Include(x => x.VisitorsCountries).Include(x => x.Debts).FirstOrDefaultAsync();
             return user;
         }
     }

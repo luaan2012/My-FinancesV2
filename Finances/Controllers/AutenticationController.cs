@@ -56,16 +56,21 @@ namespace Finances.Controllers
             if (result.Succeeded)
             {
 
-                var path = Path.Combine(Directory.GetCurrentDirectory(), $"wwwroot/images/{user.Id}");
+                if(user.ImageUpload is not null)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), $"wwwroot/images/{user.Id}");
 
-                FileHelper.SaveFiles(user.ImageUpload.OpenReadStream(),user.ImageUpload.FileName, path);
+                    FileHelper.SaveFiles(user.ImageUpload.OpenReadStream(), user.ImageUpload.FileName, path);
 
-                user.Imagem = user.ImageUpload.FileName;
-
+                    user.Imagem = user.ImageUpload.FileName;
+                }
+                
                 await _userService.CreateUser(identity, _mapper.Map<Users>(user));
 
                 ViewBag.Success = true;
-            }            
+            }
+
+            TempData["error"] = result?.Errors;
 
             return View(user);
         }

@@ -17,3 +17,22 @@ C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.CrossCutting.Helper\obj\D
 C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.CrossCutting.Helper\obj\Debug\net6.0\refint\Finances.CrossCutting.Helper.dll
 C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.CrossCutting.Helper\obj\Debug\net6.0\Finances.CrossCutting.Helper.pdb
 C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.CrossCutting.Helper\obj\Debug\net6.0\ref\Finances.CrossCutting.Helper.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\bin\Debug\net6.0\Finances.CrossCutting.Helper.deps.json
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\bin\Debug\net6.0\Finances.CrossCutting.Helper.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\bin\Debug\net6.0\Finances.CrossCutting.Helper.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\bin\Debug\net6.0\Finances.Enums.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\bin\Debug\net6.0\Finances.Models.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\bin\Debug\net6.0\Finances.ModelView.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\bin\Debug\net6.0\Finances.Enums.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\bin\Debug\net6.0\Finances.Models.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\bin\Debug\net6.0\Finances.ModelView.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\obj\Debug\net6.0\Finances.CrossCutting.Helper.csproj.AssemblyReference.cache
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\obj\Debug\net6.0\Finances.CrossCutting.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\obj\Debug\net6.0\Finances.CrossCutting.Helper.AssemblyInfoInputs.cache
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\obj\Debug\net6.0\Finances.CrossCutting.Helper.AssemblyInfo.cs
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\obj\Debug\net6.0\Finances.CrossCutting.Helper.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\obj\Debug\net6.0\Finances.CrossCutting.Helper.csproj.CopyComplete
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\obj\Debug\net6.0\Finances.CrossCutting.Helper.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\obj\Debug\net6.0\refint\Finances.CrossCutting.Helper.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\obj\Debug\net6.0\Finances.CrossCutting.Helper.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.Helper\obj\Debug\net6.0\ref\Finances.CrossCutting.Helper.dll

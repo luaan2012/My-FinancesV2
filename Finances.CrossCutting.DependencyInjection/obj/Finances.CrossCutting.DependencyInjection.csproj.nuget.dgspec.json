@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.DependencyInjection\\Finances.CrossCutting.DependencyInjection.csproj": {}
+    "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.DependencyInjection\\Finances.CrossCutting.DependencyInjection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.DependencyInjection\\Finances.CrossCutting.DependencyInjection.csproj": {
+    "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.DependencyInjection\\Finances.CrossCutting.DependencyInjection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.DependencyInjection\\Finances.CrossCutting.DependencyInjection.csproj",
+        "projectUniqueName": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.DependencyInjection\\Finances.CrossCutting.DependencyInjection.csproj",
         "projectName": "Finances.CrossCutting.DependencyInjection",
-        "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.DependencyInjection\\Finances.CrossCutting.DependencyInjection.csproj",
+        "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.DependencyInjection\\Finances.CrossCutting.DependencyInjection.csproj",
         "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.DependencyInjection\\obj\\",
+        "outputPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.DependencyInjection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.nuget.org": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.Helper\\Finances.CrossCutting.Helper.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.Helper\\Finances.CrossCutting.Helper.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.Helper\\Finances.CrossCutting.Helper.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.Helper\\Finances.CrossCutting.Helper.csproj"
               },
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Identity\\Finances.Identity.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Identity\\Finances.Identity.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Identity\\Finances.Identity.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Identity\\Finances.Identity.csproj"
               },
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Services\\Finances.Services.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Services\\Finances.Services.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Services\\Finances.Services.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Services\\Finances.Services.csproj"
               }
             }
           }
@@ -74,6 +75,14 @@
               "target": "Package",
               "version": "[6.0.4, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.4, )"
@@ -89,7 +98,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -98,18 +108,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.Helper\\Finances.CrossCutting.Helper.csproj": {
+    "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.Helper\\Finances.CrossCutting.Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.Helper\\Finances.CrossCutting.Helper.csproj",
+        "projectUniqueName": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.Helper\\Finances.CrossCutting.Helper.csproj",
         "projectName": "Finances.CrossCutting.Helper",
-        "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.Helper\\Finances.CrossCutting.Helper.csproj",
+        "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.Helper\\Finances.CrossCutting.Helper.csproj",
         "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.CrossCutting.Helper\\obj\\",
+        "outputPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.CrossCutting.Helper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,20 +134,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.nuget.org": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Enums\\Finances.Enums.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Enums\\Finances.Enums.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Enums\\Finances.Enums.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Enums\\Finances.Enums.csproj"
               },
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj"
               },
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.ModelView\\Finances.ModelView.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.ModelView\\Finances.ModelView.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.ModelView\\Finances.ModelView.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.ModelView\\Finances.ModelView.csproj"
               }
             }
           }
@@ -184,6 +195,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -203,7 +218,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -212,18 +228,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Domain\\Finances.Domain.csproj": {
+    "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Domain\\Finances.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Domain\\Finances.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Domain\\Finances.Domain.csproj",
         "projectName": "Finances.Domain",
-        "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Domain\\Finances.Domain.csproj",
+        "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Domain\\Finances.Domain.csproj",
         "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -238,17 +254,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.nuget.org": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Identity\\Finances.Identity.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Identity\\Finances.Identity.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Identity\\Finances.Identity.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Identity\\Finances.Identity.csproj"
               },
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj"
               }
             }
           }
@@ -274,7 +291,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -283,18 +301,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Enums\\Finances.Enums.csproj": {
+    "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Enums\\Finances.Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Enums\\Finances.Enums.csproj",
+        "projectUniqueName": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Enums\\Finances.Enums.csproj",
         "projectName": "Finances.Enums",
-        "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Enums\\Finances.Enums.csproj",
+        "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Enums\\Finances.Enums.csproj",
         "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Enums\\obj\\",
+        "outputPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Enums\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -309,7 +327,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.nuget.org": {}
         },
         "frameworks": {
           "net6.0": {
@@ -332,7 +351,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -341,18 +361,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Identity\\Finances.Identity.csproj": {
+    "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Identity\\Finances.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Identity\\Finances.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Identity\\Finances.Identity.csproj",
         "projectName": "Finances.Identity",
-        "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Identity\\Finances.Identity.csproj",
+        "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Identity\\Finances.Identity.csproj",
         "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Identity\\obj\\",
+        "outputPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -367,14 +387,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.nuget.org": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj"
               }
             }
           }
@@ -404,7 +425,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -413,18 +435,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj": {
+    "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj",
         "projectName": "Finances.Models",
-        "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj",
+        "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj",
         "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\obj\\",
+        "outputPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -439,14 +461,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.nuget.org": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Enums\\Finances.Enums.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Enums\\Finances.Enums.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Enums\\Finances.Enums.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Enums\\Finances.Enums.csproj"
               }
             }
           }
@@ -464,6 +487,10 @@
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
             }
           },
           "imports": [
@@ -472,7 +499,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -481,18 +509,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.ModelView\\Finances.ModelView.csproj": {
+    "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.ModelView\\Finances.ModelView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.ModelView\\Finances.ModelView.csproj",
+        "projectUniqueName": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.ModelView\\Finances.ModelView.csproj",
         "projectName": "Finances.ModelView",
-        "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.ModelView\\Finances.ModelView.csproj",
+        "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.ModelView\\Finances.ModelView.csproj",
         "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.ModelView\\obj\\",
+        "outputPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.ModelView\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -507,17 +535,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.nuget.org": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Enums\\Finances.Enums.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Enums\\Finances.Enums.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Enums\\Finances.Enums.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Enums\\Finances.Enums.csproj"
               },
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj"
               }
             }
           }
@@ -537,7 +566,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -546,18 +576,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Services\\Finances.Services.csproj": {
+    "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Services\\Finances.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Services\\Finances.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Services\\Finances.Services.csproj",
         "projectName": "Finances.Services",
-        "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Services\\Finances.Services.csproj",
+        "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Services\\Finances.Services.csproj",
         "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Services\\obj\\",
+        "outputPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -572,17 +602,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.nuget.org": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Domain\\Finances.Domain.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Domain\\Finances.Domain.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Domain\\Finances.Domain.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Domain\\Finances.Domain.csproj"
               },
-              "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj": {
-                "projectPath": "C:\\Users\\Luan\\Documents\\MyFinancesV2\\Finances\\Finances.Models\\Finances.Models.csproj"
+              "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj": {
+                "projectPath": "C:\\Users\\Luan\\Documents\\Visual Studio 2022\\Projects\\My-FinancesV2\\Finances.Models\\Finances.Models.csproj"
               }
             }
           }
@@ -602,7 +633,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -611,7 +643,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

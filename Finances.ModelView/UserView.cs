@@ -10,7 +10,7 @@ namespace Finances.ModelView
     public class UserView : Entity
     {
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        [StringLength(100, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 6)]
+        [StringLength(100, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 3)]
         [DisplayName("Nome")]
         public string Name { get; set; }
 
@@ -40,7 +40,7 @@ namespace Finances.ModelView
         public TypeUser TypeUser { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        [StringLength(9, ErrorMessage = "O campo {0} precisa ter {2} numeros", MinimumLength = 9)]
+        [StringLength(15, ErrorMessage = "O campo {0} precisa ter {2} numeros", MinimumLength = 5)]
         [DisplayName("Numero telefone")]
         public string Phone { get; set; }
 

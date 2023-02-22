@@ -91,7 +91,10 @@ function removeDebts(id) {
 }
 
 function AjaxModal(elemento, url, metodo) {
-    $('.money').val($('.money').val().replace('R$',''))
+    var money = $('.money').val();
+    if (money) {
+        $('.money').val(money.replace('R$',''))
+    }
     var formData = new FormData(elemento);
 
     $.ajax({

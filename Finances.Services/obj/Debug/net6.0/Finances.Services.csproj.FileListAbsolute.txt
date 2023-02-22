@@ -19,3 +19,24 @@ C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Services\obj\Debug\net6.0
 C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Services\obj\Debug\net6.0\refint\Finances.Services.dll
 C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Services\obj\Debug\net6.0\Finances.Services.pdb
 C:\Users\Luan\Documents\MyFinancesV2\Finances\Finances.Services\obj\Debug\net6.0\ref\Finances.Services.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Services.deps.json
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Services.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Services.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Domain.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Enums.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Identity.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Models.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Domain.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Models.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Enums.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\bin\Debug\net6.0\Finances.Identity.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\obj\Debug\net6.0\Finances.Services.csproj.AssemblyReference.cache
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\obj\Debug\net6.0\Finances.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\obj\Debug\net6.0\Finances.Services.AssemblyInfoInputs.cache
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\obj\Debug\net6.0\Finances.Services.AssemblyInfo.cs
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\obj\Debug\net6.0\Finances.Services.csproj.CoreCompileInputs.cache
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\obj\Debug\net6.0\Finances.Services.csproj.CopyComplete
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\obj\Debug\net6.0\Finances.Services.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\obj\Debug\net6.0\refint\Finances.Services.dll
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\obj\Debug\net6.0\Finances.Services.pdb
+C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Services\obj\Debug\net6.0\ref\Finances.Services.dll

@@ -510,7 +510,8 @@
       "Finances.Models/1.0.0": {
         "dependencies": {
           "Finances.Enums": "1.0.0",
-          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+          "Microsoft.AspNetCore.Http.Features": "5.0.17",
+          "Microsoft.EntityFrameworkCore": "6.0.4"
         },
         "runtime": {
           "Finances.Models.dll": {}

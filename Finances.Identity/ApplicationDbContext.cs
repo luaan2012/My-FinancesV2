@@ -1,6 +1,7 @@
 ﻿using Finances.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace Finances.Identity
 {
@@ -16,6 +17,5 @@ namespace Finances.Identity
         public DbSet<VisitorsCountries> VisitorsCountries { get; set; }
         public DbSet<Remember> Remembers { get; set; }
         public DbSet<Revenue> Revenues { get; set; }
-
     }
 }

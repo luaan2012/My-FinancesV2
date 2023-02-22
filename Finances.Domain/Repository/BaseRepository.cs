@@ -31,7 +31,7 @@ namespace Finances.Domain.Repository
 
         public async Task<IEnumerable<TEntity>> Buscar(Expression<Func<TEntity, bool>> predicate)
         {
-            return await _dbSet.Where(predicate).ToListAsync();
+            return await _dbSet.AsNoTracking().Where(predicate).ToListAsync();
         }
 
         public async Task<TEntity> ObterId(Guid id)
@@ -41,7 +41,7 @@ namespace Finances.Domain.Repository
 
         public async Task<IEnumerable<TEntity>> ObterTodos()
         {
-            return await _dbSet.ToListAsync();
+            return await _dbSet.AsNoTracking().ToListAsync();
         }
 
         public async Task Remover(Guid id)
