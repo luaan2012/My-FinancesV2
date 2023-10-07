@@ -56,3 +56,32 @@ C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Cross
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.pdb
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.genruntimeconfig.cache
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\ref\Finances.CrossCutting.DependencyInjection.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.CrossCutting.DependencyInjection.deps.json
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.CrossCutting.DependencyInjection.runtimeconfig.json
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.CrossCutting.DependencyInjection.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.CrossCutting.DependencyInjection.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.CrossCutting.Helper.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.Domain.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.Enums.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.Identity.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.Models.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.ModelView.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.Services.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.CrossCutting.Helper.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.Identity.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.Services.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.Domain.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.Enums.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.Models.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\bin\Debug\net6.0\Finances.ModelView.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.csproj.AssemblyReference.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.AssemblyInfo.cs
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.csproj.CopyComplete
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\refint\Finances.CrossCutting.DependencyInjection.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\Finances.CrossCutting.DependencyInjection.genruntimeconfig.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.CrossCutting.DependencyInjection\obj\Debug\net6.0\ref\Finances.CrossCutting.DependencyInjection.dll

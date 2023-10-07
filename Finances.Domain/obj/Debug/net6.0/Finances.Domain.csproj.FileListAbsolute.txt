@@ -36,3 +36,22 @@ C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Domai
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\refint\Finances.Domain.dll
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\Finances.Domain.pdb
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\ref\Finances.Domain.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\bin\Debug\net6.0\Finances.Domain.deps.json
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\bin\Debug\net6.0\Finances.Domain.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\bin\Debug\net6.0\Finances.Domain.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\bin\Debug\net6.0\Finances.Enums.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\bin\Debug\net6.0\Finances.Identity.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\bin\Debug\net6.0\Finances.Models.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\bin\Debug\net6.0\Finances.Identity.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\bin\Debug\net6.0\Finances.Models.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\bin\Debug\net6.0\Finances.Enums.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\Finances.Domain.csproj.AssemblyReference.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\Finances.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\Finances.Domain.AssemblyInfoInputs.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\Finances.Domain.AssemblyInfo.cs
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\Finances.Domain.csproj.CoreCompileInputs.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\Finances.Domain.csproj.CopyComplete
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\Finances.Domain.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\refint\Finances.Domain.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\Finances.Domain.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Domain\obj\Debug\net6.0\ref\Finances.Domain.dll

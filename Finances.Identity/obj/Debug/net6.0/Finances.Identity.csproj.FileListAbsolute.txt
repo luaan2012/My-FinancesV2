@@ -32,3 +32,20 @@ C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Ident
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\refint\Finances.Identity.dll
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\Finances.Identity.pdb
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\ref\Finances.Identity.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\bin\Debug\net6.0\Finances.Identity.deps.json
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\bin\Debug\net6.0\Finances.Identity.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\bin\Debug\net6.0\Finances.Identity.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\bin\Debug\net6.0\Finances.Enums.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\bin\Debug\net6.0\Finances.Models.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\bin\Debug\net6.0\Finances.Models.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\bin\Debug\net6.0\Finances.Enums.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\Finances.Identity.csproj.AssemblyReference.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\Finances.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\Finances.Identity.AssemblyInfoInputs.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\Finances.Identity.AssemblyInfo.cs
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\Finances.Identity.csproj.CoreCompileInputs.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\Finances.Identity.csproj.CopyComplete
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\Finances.Identity.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\refint\Finances.Identity.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\Finances.Identity.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Identity\obj\Debug\net6.0\ref\Finances.Identity.dll

@@ -28,3 +28,18 @@ C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Model
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\refint\Finances.Models.dll
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\Finances.Models.pdb
 C:\Users\Luan\Documents\Visual Studio 2022\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\ref\Finances.Models.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\bin\Debug\net6.0\Finances.Models.deps.json
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\bin\Debug\net6.0\Finances.Models.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\bin\Debug\net6.0\Finances.Models.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\bin\Debug\net6.0\Finances.Enums.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\bin\Debug\net6.0\Finances.Enums.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\Finances.Models.csproj.AssemblyReference.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\Finances.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\Finances.Models.AssemblyInfoInputs.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\Finances.Models.AssemblyInfo.cs
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\Finances.Models.csproj.CoreCompileInputs.cache
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\Finances.Models.csproj.CopyComplete
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\Finances.Models.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\refint\Finances.Models.dll
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\Finances.Models.pdb
+C:\Users\oempr\Documents\Projects\My-FinancesV2\Finances.Models\obj\Debug\net6.0\ref\Finances.Models.dll
