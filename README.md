@@ -4,7 +4,7 @@
 
 ## :bulb: Live Demo
 
-- FinancesV2 = [here](<https://nerdstorecore.portfolioluan.shop/>).
+- FinancesV2 = [here](<https://myfinancesv2.portfolioluan.shop/>).
   
 # What's New in MyFinances v2
  - Dark Theme
