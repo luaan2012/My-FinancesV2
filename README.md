@@ -2,6 +2,10 @@
 
 # Welcome to MyFinances v2, the upgraded and enhanced version of our financial management application! MyFinances v2 is designed to provide you with a comprehensive and user-friendly platform to manage your finances, control your monthly income, track your expenses, and stay organized with tasks and open projects. With the introduction of a dark theme and powerful new features, managing your finances has never been this efficient and visually appealing.
 
+## :bulb: Live Demo
+
+- FinancesV2 = [here](<https://nerdstorecore.portfolioluan.shop/>).
+  
 # What's New in MyFinances v2
  - Dark Theme
  - MyFinances v2 introduces a stylish dark theme, providing a visually pleasing and comfortable experience for users who prefer darker interfaces. Switch between light and dark themes with ease, making your financial management experience truly yours.
